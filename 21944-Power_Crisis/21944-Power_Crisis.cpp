@@ -12,7 +12,6 @@ int main()
 {
     int N;
     cin >> N;
-    int m = 10;
     for (int m = 1; m < N - 1; m++)
     {
         int curr = 0;
