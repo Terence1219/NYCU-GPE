@@ -4,9 +4,9 @@
 #include <climits>
 using namespace std;
 
-int find(vector<int> set)
+int find(vector<int> set) // 暴力法
 {
-    for (int d = set.size() - 1; d >= 0; d--)
+    for (int d = set.size() - 1; d >= 0; d--) // 從最大的d開始找
     {
         for (int a = 0; a < set.size(); a++)
         {
